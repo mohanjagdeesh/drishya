@@ -56,14 +56,14 @@ const FooterSection = () => {
         <hr className="h-rule"/>
         <div className="paymentSection">
             <div className="payment-types">
-                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1676026868/PayPal.svg_xsiehg.png" alt = "paypal"/>
-                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1675746921/apple_pay_logo_akcof1.png" alt = "applepay"/>
-                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1676026137/American-Express-Logo-PNG-Image_bxuz9g.png" alt = "american"/>
+                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1675683020/paypal_1_paypal_n5obmg.png" alt = "paypal"/>
+                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1675683029/applepay_1_a_pay_npheh6.png" alt = "applepay"/>
+                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1676461442/amex_1_srt5o1.png" alt = "american"/>
             </div>
             <div className="payment-types"> 
-                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1675746902/visa_master_card_p74e6i.png" alt = "visa"/>
-                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1675746927/alipay_logo_gfgbzc.png" alt = "alipay"/>
-                <img className="payment-img" src= "https://res.cloudinary.com/duapyyftc/image/upload/v1676026395/Discover-logo_osfkld.png" alt = "discover"/>
+                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1675683025/visa-mastercard_1_visa_spvref.png" alt = "visa"/>
+                <img className="payment-img" src = "https://res.cloudinary.com/duapyyftc/image/upload/v1675683034/alipay_1_ali_pay_qfcbuh.png" alt = "alipay"/>
+                <img className="payment-img" src= "https://res.cloudinary.com/duapyyftc/image/upload/v1676461454/Discover-logo_1_v1tdmf.png" alt = "discover"/>
             </div>
         </div>
 
