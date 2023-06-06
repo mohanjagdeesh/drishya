@@ -4,6 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
+    width: 80%;
+    margin: auto;
     
 }
 

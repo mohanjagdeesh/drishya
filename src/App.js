@@ -2,9 +2,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import HomePage from "./components/HomePage";
 import NotFound from "./components/NotFound";
-import Careers from "./components/Careers";
 import TermsConditions from "./components/TermsConditions";
-import Faq from "./components/Faq";
+import Careers from "./components/Careers/Careers";
+import FaqSection from "./components/FaqSection/Faq";
 
 const App = () => (
   <BrowserRouter>
@@ -12,7 +12,7 @@ const App = () => (
       <Route exact path="/" component={HomePage} />
       <Route exact path="/careers" component={Careers} />
       <Route exact path="/terms" component={TermsConditions} />
-      <Route exact path="/faq" component={Faq} />
+      <Route exact path="/faq" component={FaqSection} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
