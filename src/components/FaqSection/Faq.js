@@ -15,6 +15,7 @@ import {
   AccordionDeliver,
 } from "./accordion/AllAccordions";
 import { v4 as uuidv4 } from "uuid";
+import FooterSection from "../FooterSection/Footer";
 import delivery from "./carbon_delivery.png";
 import forwardShipping from "./Group.png";
 import other from "./image 16.png";
@@ -544,6 +545,7 @@ const Faq = () => {
           {renderSearchKeywordFaqList()}
         </div>
       )}
+      <FooterSection />
     </div>
   );
 };

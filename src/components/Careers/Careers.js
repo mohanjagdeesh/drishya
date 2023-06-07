@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useFormik } from "formik";
 import { v4 as uuidv4 } from "uuid";
+import FooterSection from "../FooterSection/Footer";
 
 import * as Yup from "yup";
 
@@ -349,6 +350,7 @@ const Careers = () => {
           {joinWithUs()}
         </div>
       )}
+      <FooterSection />
     </div>
   );
 };

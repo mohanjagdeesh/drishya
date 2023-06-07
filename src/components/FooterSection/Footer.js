@@ -1,7 +1,7 @@
 import {BsTwitter , BsFacebook , BsInstagram , BsYoutube} from "react-icons/bs"
 
 
-import "./index.css"
+import "./Footer.css"
 
 const FooterSection = () => {
     
